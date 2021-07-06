@@ -86,7 +86,7 @@ h2 {
     display: inline-block;
     margin: 10px 10px;
     height: 95%;
-    width: 23%;
+    width: 30%;
 }
 
 .textstyle li {
@@ -95,7 +95,7 @@ h2 {
 
 .text_styles {
     border: 1px solid skyblue;
-    width: 90%;
+    width: 75%;
     margin: 20px auto;
 }
 
