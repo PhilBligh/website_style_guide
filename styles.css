@@ -1,10 +1,121 @@
-p {
-    color: green;
+body {
+    text-align: center;
+    background-image: url("images/watercolour.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1, h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+.backinfo {
+    text-align: right;
+}
+
+.boxes {
+    text-align: center;
+}
+
+.blue {
+    background-color: rgb(129, 200, 228);
+}
+
+.red {
+    background-color: rgb(238, 151, 151);
+}
+
+.green {
+    background-color: rgb(157, 235, 157);
+}
+
+.purple {
+    background-color: rgb(235, 165, 235);
 }
 
 .colour {
+    margin: 0 auto;
     display: inline-block;
     text-align: center;
     border: 1px solid black;
-    width: 100px;
+    width: 140px;
+}
+
+#colours {
+    text-align: center;
+}
+
+.background_box {
+    margin: 0 auto;
+    background-color: rgb(241, 241, 186);
+    width: 600px;
+    padding: 30px 10px 1px;  
+    border: 1px solid skyblue;
+}
+
+#fonts {
+    border: 1px solid skyblue;
+    width: 75%;
+    margin: 20px auto 40px;
+    padding-bottom: 20px;
+}
+
+.font {
+    display: inline-block;
+    margin: 10px;
+}
+
+.courier {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.trebuchet {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.helvetica {
+    font-family: helvetica;
+}
+
+.textstyle {
+    display: inline-block;
+    margin: 10px 10px;
+    height: 95%;
+    width: 23%;
+}
+
+.textstyle li {
+    text-align: left;
+}
+
+.text_styles {
+    border: 1px solid skyblue;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.heading {
+
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+
+}
+
+.subheading {
+    font-size: 26px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+
+
+}
+
+.paragraph {
+    font-family: helvetica;
+    font-weight: normal;
+    font-size: 16px;
 }
